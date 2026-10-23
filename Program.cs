@@ -181,6 +181,14 @@ namespace Linq02
 
             #endregion
 
+            #region Question18
+
+            //18. Generate a multiplication table row for 7
+
+            //var result = Enumerable.Range(1, 12).Select(n => n * 7);
+
+            #endregion
+
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
