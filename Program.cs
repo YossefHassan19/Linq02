@@ -153,6 +153,15 @@ namespace Linq02
 
             #endregion
 
+            #region Question15
+
+            //15. Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
+
+            //var productDict = Source.ProductList.ToDictionary(p => p.ProductID);
+            //var product18 = productDict[18];
+            //Console.WriteLine(product18);
+
+            #endregion
 
 
             //foreach (var item in result)
