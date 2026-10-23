@@ -42,6 +42,16 @@ namespace Linq02
 
             #endregion
 
+            #region Question05
+
+            //5. Check if the ID list contains 9. int[] ids = { 3, 9, 13, 18 };
+
+            //int[] ids = { 3, 9, 13, 18 };
+            //var result = ids.Contains(9);
+            //Console.WriteLine(result);
+
+            #endregion
+
 
 
             //foreach (var item in result)
