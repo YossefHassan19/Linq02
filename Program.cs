@@ -1,4 +1,5 @@
 ﻿using Linq02.DataSources;
+using Linq02.Models;
 
 namespace Linq02
 {
@@ -20,6 +21,15 @@ namespace Linq02
             //2. show page 2 of products, with page size = 5
 
             //var result = Source.ProductList.Skip(5).Take(5);
+
+            #endregion
+
+            #region Question03
+
+            //3. Take products from the list as long as Their UnitPrice is less than $25(list is ordered by price).
+
+            //var result = Source.ProductList.OrderBy(p => p.UnitPrice)
+            //                               .TakeWhile(p => p.UnitPrice < 25);
 
             #endregion
 
