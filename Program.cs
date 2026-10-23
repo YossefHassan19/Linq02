@@ -88,6 +88,21 @@ namespace Linq02
 
             #endregion
 
+            #region Question09
+
+            //9. Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }.
+
+            //var result = from c in Source.CustomerList
+            //             group c by c.Country into g
+            //             select new
+            //             {
+            //                 Country = g.Key,
+            //                 Count = g.Count(),
+            //                 TotalOrderValue = g.SelectMany(cust => cust.Orders).Sum(o => o.Total)
+            //             };
+
+            #endregion
+
 
 
 
