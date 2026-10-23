@@ -172,6 +172,15 @@ namespace Linq02
 
             #endregion
 
+            #region Question17
+
+            //17. Try to get the first product with a price > $500. it returns null  
+
+            //var result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500m);
+            //Console.WriteLine(result);
+
+            #endregion
+
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
