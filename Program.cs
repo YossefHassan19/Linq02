@@ -123,6 +123,13 @@ namespace Linq02
 
             #endregion
 
+            #region Question12
+
+            //12. Get a distinct list of all product categories
+
+            //var result = Source.ProductList.Select(p => p.Category).Distinct();
+
+            #endregion
 
 
 
