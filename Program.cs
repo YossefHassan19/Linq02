@@ -15,6 +15,13 @@ namespace Linq02
 
             #endregion
 
+            #region Question02
+
+            //2. show page 2 of products, with page size = 5
+
+            //var result = Source.ProductList.Skip(5).Take(5);
+
+            #endregion
 
 
 
