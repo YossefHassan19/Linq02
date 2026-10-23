@@ -163,6 +163,14 @@ namespace Linq02
 
             #endregion
 
+            #region Question16
+
+            //16. Get the first product whose price is greater than $50.
+
+            //var result = Source.ProductList.First(p => p.UnitPrice > 50m);
+            //Console.WriteLine(result);
+
+            #endregion
 
             //foreach (var item in result)
             //{
