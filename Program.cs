@@ -33,12 +33,21 @@ namespace Linq02
 
             #endregion
 
+            #region Question04
+
+            //4. Check if ALL products in the "Seafood" category are in stock
+
+            //var result = Source.ProductList.Where(p => p.Category == "Seafood")
+            //                               .All(p => p.UnitsInStock > 0);
+
+            #endregion
 
 
-            foreach (var item in result)
-            {
-                Console.WriteLine(item);
-            }
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
         }
     }
 }
