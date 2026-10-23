@@ -197,6 +197,16 @@ namespace Linq02
 
             #endregion
 
+            #region Question20
+
+            //20. Concatenate the first 3 product names with the first 3 customer company names into a single sequence.
+
+            //var result = Source.ProductList.Select(p => p.ProductName)
+            //                               .Take(3)
+            //                               .Concat(Source.CustomerList.Select(c => c.CustomerName).Take(3));
+
+            #endregion
+
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
