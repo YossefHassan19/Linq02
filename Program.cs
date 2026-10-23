@@ -131,6 +131,17 @@ namespace Linq02
 
             #endregion
 
+            #region Question13
+
+            //13. find product IDs that are in setA but NOT in setB
+
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+
+            //var result = setA.Except(setB);
+
+            #endregion
+
 
 
             //foreach (var item in result)
